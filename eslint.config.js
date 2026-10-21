@@ -14,4 +14,8 @@ module.exports = defineConfig([
       "no-console": "warn", // предупреждать о console.log
     },
   },
+  {
+    files: ["eslint.config.js"],
+    languageOptions: { globals: globals.node },
+  },
 ]);
